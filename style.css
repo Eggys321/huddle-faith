@@ -12,7 +12,7 @@ body {
     /* background-repeat: no-repeat; */
     /* background-color: hsl(257, 40%, 49%); */
     background: url('./assets/bg-mobile.svg') no-repeat hsl(257, 40%, 49%);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: 'Open Sans', sans-serif;
 
 }
