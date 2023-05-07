@@ -17,49 +17,55 @@ body {
 
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto
 }
 
-.header{
+.header {
     margin-top: 1.3rem;
 }
-header img{
+
+header img {
     width: 41%;
 }
 
 /* main style starts next */
-.main-container{
+.main-container {
     margin-top: 4.3rem;
     height: 29.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-main img{
+
+main img {
     width: 100%;
 }
-.main-inner{
+
+.main-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 20rem;
     gap: 20px;
 }
-.main-inner h2{
+
+.main-inner h2 {
     font-family: 'Poppins', sans-serif;
     color: white;
     /* width: 90%; */
     /* margin: auto; */
     text-align: center;
 }
-.main-inner p{
+
+.main-inner p {
     color: white;
     text-align: center;
 }
-.main-inner button{
+
+.main-inner button {
     width: 70%;
     height: 2rem;
     border-radius: 20px;
@@ -67,11 +73,11 @@ main img{
     border: none;
     color: hsl(300, 69%, 71%);
     font-size: 13px;
-    
+
 }
 
 /* Footer style starts next */
-.footer{
+.footer {
     /* display: flex; */
     /* justify-content: space-between; */
     margin-top: 4rem;
@@ -79,11 +85,11 @@ main img{
     margin-bottom: 2rem;
 }
 
-.footer-icon{
+.footer-icon {
     border: 1px solid white;
     margin-left: 1rem;
-    
-    
+
+
     /* color: white; */
     /* background-color: hsl(300, 69%, 71%); */
     height: 3rem;
@@ -94,3 +100,71 @@ main img{
 }
 
 
+@media (min-width:1024px) {
+    body {
+        background: url('./assets/bg-desktop.svg') no-repeat hsl(257, 40%, 49%);
+        /* background-size: contain; */
+
+    }
+
+    .container {
+        width: 85%;
+        margin: auto
+    }
+
+    header img {
+        width: 18%;
+    }
+
+    .header {
+        margin-top: 1rem;
+    }
+
+
+    /* main style starts next */
+
+    .main-container {
+        margin-top: 5rem;
+        width: 85%;
+        height: 25rem;
+        /* display: flex; */
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+
+    }
+
+    main img {
+        width: 57%;
+    }
+
+    .main-inner {
+        width: 40%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* height: 20rem; */
+        /* gap: 20px; */
+    }
+
+    .main-inner h2 {
+        width: 80%;
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .main-inner p {
+        color: white;
+        text-align: start;
+        /* width: 98.5%; */
+    }
+
+   
+
+    .footer {
+        text-align: end;
+        margin-top: 2.4rem;
+    }
+
+
+}
